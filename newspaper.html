@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = 'stylesheet' href = "newspaper.css">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Container one 3 col one row with heading--> >
+    <div class="container cl1">
+        <div class="row">
+          <div class="col">
+            <p>Birds are very special animals that have particular characteristics which are common amongst all of them. For instance</p>
+          </div>
+          <div class="col-6">
+            The Brid Express: All about Brids
+          </div>
+          <div class="col">
+            <p> all of them have feathers, wings and two legs. Similarly, all birds lay eggs and are warm-blooded. They are very essential for our environment and exist in different breeds. </p>
+          </div>
+        </div>    
+<!--Nav bar-->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <span class="navbar-text">
+                Choose paper date : <input type='date' id='hasta' value='<?php echo date('Y-m-d');?>'
+              </span>
+            </div>
+          </nav>
+    </div>
+<!---Nav bar ends here-->
+
+<!--- One row two column start here  -->
+<div class="container cl1">
+    <div class="row">
+        <div class="col-8">
+             <div class="card" style="width: 45rem;">
+                <h5 class="card-title">White Head American Eagle</h5>
+                <img class="card-img-top" src="https://animals.sandiegozoo.org/sites/default/files/2016-08/animals_hero_bald_eagle.jpg" alt="Card image cap">
+                <div class="card-body">
+                  
+                    <p class="card-text">Eagles are known as birds of prey because they hunt animals as their food. They are similar to hawks, falcons, and vultures.</p>
+                  <a href="#" class="btn btn-primary">Read More...</a>
+                </div>
+              </div>
+        </div>
+
+        
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://animals.sandiegozoo.org/sites/default/files/2016-08/animals_hero_bald_eagle.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Hawk</h5>
+                  <p class="card-text">Hawk birds are a group of medium-sized diurnal raptors in the falcon family. </p>
+                  <a href="#" class="btn btn-primary">Read more...</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      
+
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example text area</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+  </div>
+<!---One row Two column end here-->
+<!---container ends here-->>
+</div>
+</body>
+</html>

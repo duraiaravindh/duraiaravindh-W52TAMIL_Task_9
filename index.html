@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 id="title"> Survey Form</h1>
+    <div class="name">
+        <form>
+            <label for="fname">First Name </label>
+            <input type="text" name="fname" required placeholder="Enter the first name">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" required placeholder="Enter the last name">
+        </form>
+    </div>
+    <br>
+
+    <div>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+        </form>
+    </div>
+
+    <div class="stars">
+        <form action="">
+            <label for="survey"> Your experience </label>
+            <input class="star star-5" id="star-5" type="radio" name="star" />
+            <label class="star star-5" for="star-5"></label>
+            <input class="star star-4" id="star-4" type="radio" name="star" />
+            <label class="star star-4" for="star-4"></label>
+            <input class="star star-3" id="star-3" type="radio" name="star" />
+            <label class="star star-3" for="star-3"></label>
+            <input class="star star-2" id="star-2" type="radio" name="star" />
+            <label class="star star-2" for="star-2"></label>
+            <input class="star star-1" id="star-1" type="radio" name="star" />
+            <label class="star star-1" for="star-1"></label>
+            <h5>Overall, how would you rate your experience with us ?<h5>
+
+        </form>
+    </div>
+
+    <div>
+
+        <h4>How satisfied are you with </h4>
+        <p>Very Unsatisfied Unsatisfied Neutral Satisfied Extremely satisfied</p>
+        <form action="">
+            <div>
+                <label for="purchase"> Purchase</label>
+                <input type="radio" name="purchase" value="Extremely Satisfied"> <input type="radio"
+                    name="purchase"><input type="radio" name="purchase"><input type="radio" name="purchase"><input
+                    type="radio" name="purchase">
+            </div>
+            <div>
+                <label for="service"> Service</label>
+                <input type="radio" name="service" value="Extremely Satisfied"> <input type="radio"
+                    name="service"><input type="radio" name="service"><input type="radio" name="service"><input
+                    type="radio" name="service">
+            </div>
+            <div>
+                <label for="company Overall"> Company Overall</label>
+                <input type="radio" name="company Overall" value="Extremely Satisfied"> <input type="radio"
+                    name="company Overall"><input type="radio" name="company Overall"><input type="radio"
+                    name="company Overall"><input type="radio" name="company Overall">
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <h4>How likely are you to </h4>
+        <p>Very Unlikely Unlikely Neutral likely Extremely likely</p>
+        <form action="">
+            <div>
+                <label for="purchase">Buy from us again</label>
+                <input type="radio" name="purchase" value="Extremely Satisfied"> <input type="radio"
+                    name="purchase"><input type="radio" name="purchase"><input type="radio" name="purchase"><input
+                    type="radio" name="purchase">
+            </div>
+            <div>
+                <label for="purchase">Recommend our product to other</label>
+                <input type="radio" name="purchase" value="Extremely Satisfied"> <input type="radio"
+                    name="purchase"><input type="radio" name="purchase"><input type="radio" name="purchase"><input
+                    type="radio" name="purchase">
+            </div>
+            <div>
+                <label for="purchase">Recommend our company to other</label>
+                <input type="radio" name="purchase" value="Extremely Satisfied"> <input type="radio"
+                    name="purchase"><input type="radio" name="purchase"><input type="radio" name="purchase"><input
+                    type="radio" name="purchase">
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <h5>Additional Comments or Suggestions : </h5>
+        <input type="text" style="font-size: 18pt; height: 100px; width:300px; ">
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+
+</html>
